@@ -4,7 +4,9 @@
 - Output results of the v1 model (terminal)
 ![picutre](images/v1_model.jpg)
 - Output results of the v2 model (terminal)
-![output_1](images/output_1.jpg)
+
+|![An image](images/output_1.jpg)|![An image](images/output_2.jpg)|![An image](images/output_3.jpg)|
+| :-----:| :----: | :----:|
 
 - strange output analysis
 Some numbers are chapter numbers, which were deleted by regular expressions(code below), causing strange numbers to appear in the poem.
