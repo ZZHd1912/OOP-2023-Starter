@@ -21,6 +21,7 @@ public class DANI extends PApplet {
 		colorMode(HSB);
 		model = new ArrayList<Word>();
 		loadFile("small.txt");
+        loadFile("shakespere.txt");
 	}
 
 	public Word findWord(String str) {
@@ -77,7 +78,7 @@ public class DANI extends PApplet {
 			String sentence = "";
 			String currentWord = model.get((int) random(model.size())).getWord();
 			sentence += currentWord;
-			for (int j = 0; j < 7; j++) {
+			for (int j = 0; j < 8; j++) {
 				Word word = findWord(currentWord);
 				if (word != null && word.getFollows().size() > 0) {
 					Follow follow = word.getFollows().get((int) random(word.getFollows().size()));

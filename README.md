@@ -3,7 +3,15 @@
 ## Some Log Pictures
 - Output results of the v1 model (terminal)
 ![picutre](images/v1_model.jpg)
-- 
+- Output results of the v2 model (terminal)
+![output_1](images/output_1.jpg)
+
+- strange output analysis
+Some numbers are chapter numbers, which were deleted by regular expressions(code below), causing strange numbers to appear in the poem.
+```Java
+w.replaceAll("[^\\w\\s]","");
+```
+
 
 - [Submission link](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNURFpXUTdBS1k2QjZHNVhPTDhJTDJENFJIUi4u)
 
