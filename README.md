@@ -13,7 +13,34 @@ Some numbers are chapter numbers, which were deleted by regular expressions(code
 ```Java
 w.replaceAll("[^\\w\\s]","");
 ```
-
+- some output of shakespere.txt
+```
+haken:
+wandering: bark(1)
+unknown: although(1) minds(1)
+taken:
+rosy: lips(1)
+lips: and(1) which(1) to(1) red(1) of(1) that(1)
+sickles: compass(1)
+compass: come(1)
+weeks:
+error: and(1)
+cxvii:
+accuse: me(1) thee(1)
+scanted: all(1)
+repay:
+whereto: all(1) th(1) the(1)
+frequent: been(1)
+dearpurchasd: right(1)
+hoisted: sail(1)
+transport: me(1)
+wilfulness: and(1)
+surmise: accumulate(1)
+accumulate:
+level: of(1)
+shoot: not(1)
+wakend: hate(1)
+```
 
 - [Submission link](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNURFpXUTdBS1k2QjZHNVhPTDhJTDJENFJIUi4u)
 

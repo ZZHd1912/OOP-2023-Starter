@@ -20,7 +20,7 @@ public class DANI extends PApplet {
 	public void setup() {
 		colorMode(HSB);
 		model = new ArrayList<Word>();
-		loadFile("small.txt");
+		// loadFile("small.txt");
         loadFile("shakespere.txt");
 	}
 
