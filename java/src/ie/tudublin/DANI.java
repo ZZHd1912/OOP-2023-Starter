@@ -67,11 +67,12 @@ public class DANI extends PApplet {
 				}
 			}
 		}
+		writeSonnet();
 	}
 
 
-	public String[] writeSonnet() {
-		String[] sonnet = new String[14];
+	public void writeSonnet() {
+		String[] tmp = new String[14];
 		for (int i = 0; i < 14; i++) {
 			String sentence = "";
 			String currentWord = model.get((int) random(model.size())).getWord();
@@ -86,19 +87,18 @@ public class DANI extends PApplet {
 					break;
 				}
 			}
-			sonnet[i] = sentence;
+			tmp[i] = sentence;
 		}
-		return sonnet;
+		sonnet = tmp;
 	}
 
 
 	public void keyPressed() {
 		if (key == ' ') {
 			printModel();;
-			sonnet = writeSonnet();
 			for (String s : sonnet)
-				System.out.print(s+ ' ');
-			System.out.println(' ');
+				System.out.println(s);
+			writeSonnet();
 		}
 	}
 
@@ -113,6 +113,11 @@ public class DANI extends PApplet {
 		noStroke();
 		textSize(20);
 		textAlign(CENTER, CENTER);
-
+		float lineHeight = 30;  // 每行文本的行高
+		float y = height / 2 - sonnet.length / 2 * lineHeight;  // 计算第一行的 y 坐标
+		for (String str : sonnet) {
+			text(str, width / 2, y);
+			y += lineHeight;  // 更新下一行的 y 坐标
+		}
 	}
 }
