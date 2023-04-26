@@ -1,5 +1,10 @@
 # TU856/TU858 Object Oriented Programming Test 2023
 
+## Some Log Pictures
+- Output results of the v1 model (terminal)
+![picutre](images/v1_model.jpg)
+- 
+
 - [Submission link](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNURFpXUTdBS1k2QjZHNVhPTDhJTDJENFJIUi4u)
 
 For the test today, you will be programming DANI - Dynamic Artificial Non-Intelligence. An AI capable of many tasks, such as writing Poetry. Here are two examples of DANI's poems:
